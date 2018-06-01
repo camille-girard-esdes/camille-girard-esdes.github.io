@@ -146,3 +146,33 @@ footer {
     flex-direction: row;
     justify-content: center;
 }
+
+
+/** RESPONSIVE **/
+/* Mobile */
+@media screen and (max-width : 600px) {
+    section {
+        display: flex; /* or inline-flex */;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    section a {
+        height: 80%;
+        width: 80%;
+    }
+}
+
+
+/* Tablet */
+@media only screen and (min-width : 600px) and (max-width : 900px) {
+    section {
+        display: flex; /* or inline-flex */;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center; 
+    }
+    section a {
+            height: 50%;
+            width: 50%;
+    }
